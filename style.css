@@ -1,0 +1,33 @@
+.slide img{
+   height: 650px;
+}
+.column-1{
+    display: flex;
+    justify-content: center;
+}
+.ourspecials{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.ourspecials h3{
+    font-family: sans-serif;
+     color: rgb(144, 136, 136);
+}
+.locations{
+    background-color: black;
+    color: rgb(152, 142, 142);
+}
+.branches{
+ display: flex;
+    justify-content: center;
+    background-color: black;   
+}
+.branches h4{
+    font-family: sans-serif;
+     color: rgb(185, 176, 176);
+}
+
+.card{
+    margin-top: 10px;
+}
