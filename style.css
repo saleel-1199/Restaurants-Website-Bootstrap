@@ -1,6 +1,4 @@
-.slide img{
-   height: 650px;
-}
+
 .column-1{
     display: flex;
     justify-content: center;
@@ -31,3 +29,22 @@
 .card{
     margin-top: 10px;
 }
+.carousel-item img{
+object-fit: cover;
+height: 640px;
+}
+@media(max-width:768px){
+    .carousel-item img{
+        height: 400px;
+    }
+} 
+@media(max-width:576px){
+    .carousel-item img{
+        height: 300px;
+    }
+} 
+@media(max-width:350px){
+    .carousel-item img{
+        height: 200px;
+    }
+} 
